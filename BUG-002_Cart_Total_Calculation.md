@@ -120,7 +120,6 @@ This is a critical bug as it affects the core functionality of calculating order
 ## Approval
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
-| QA Lead | John Smith | Approved | 2025-12-10 |
-| Development Lead | Jane Doe | Fixed | 2025-12-10 |
+
 
 
