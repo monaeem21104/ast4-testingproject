@@ -2,7 +2,7 @@
 
 **Bug ID:** BUG-003  
 **Reported Date:** 2025-12-08  
-**Reported By:** QA Engineer  
+**Reported By:** Mohammed Abdel Naeem   
 **Status:** Fixed  
 **Assigned To:** Backend Developer  
 **Product/Module:** DemoBlaze E-Commerce Platform - User Authentication  
@@ -111,6 +111,5 @@ This affects user experience as users are not informed why registration failed. 
 ## Approval
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
-| QA Lead | John Smith | Approved | 2025-12-10 |
-| Development Lead | Jane Doe | Fixed | 2025-12-10 |
+
 
