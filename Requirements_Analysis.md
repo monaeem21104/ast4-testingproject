@@ -2,8 +2,8 @@
 
 **Document Title:** Requirements Analysis for DemoBlaze E-Commerce Platform  
 **Version:** 1.0  
-**Date:** December 11, 2025  
-**Authors:** QA Engineering Team
+**Date:** oct 11, 2025  
+**Authors:** Mohammed Abdel Naeem
 
 ---
 
@@ -724,7 +724,7 @@ This document provides a detailed analysis of the requirements specified in the 
   - Monitors: "Apple monitor 24", "ASUS Full HD"
 
 ### 3.3 Order Data
-- Valid: Name="John Doe", Country="USA", City="New York", Credit card="1234567890123456", Month="12", Year="2025"
+- Valid: Name="Mohammed Naeem", Country="egy", City="giza", Credit card="1234567890123456", Month="12", Year="2025"
 - Invalid: Empty fields, invalid formats, past dates
 
 ### 3.4 Security Test Data
@@ -779,5 +779,6 @@ See `Traceability_Matrix.xlsx` for complete mapping of:
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-12-11 | QA Team | Initial version |
+| 1.0 | 2025-10-11 | Mohammed Abdel Naeemm| Initial version |
+
 
