@@ -2,8 +2,8 @@
 
 **Document Title:** Software Requirements Specification for DemoBlaze E-Commerce Platform  
 **Version:** 1.0  
-**Date:** December 11, 2025  
-**Authors:** QA Engineering Team  
+**Date:** OCT, 2025  
+**Authors:** Mohammed Abdel Naeem 
 **Status:** Draft
 
 ---
@@ -554,7 +554,7 @@ DemoBlaze is a demonstration e-commerce platform that allows users to:
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-12-11 | QA Team | Initial version |
+| 1.0 |  oct 2025 | Mohammed Abdel Naeem | Initial version |
 
 ---
 
@@ -565,4 +565,5 @@ DemoBlaze is a demonstration e-commerce platform that allows users to:
 | Product Owner | | | |
 | QA Lead | | | |
 | Development Lead | | | |
+
 
