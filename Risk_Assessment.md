@@ -2,8 +2,8 @@
 
 **Document Title:** Risk Assessment for DemoBlaze E-Commerce Platform Testing  
 **Version:** 1.0  
-**Date:** December 11, 2025  
-**Authors:** QA Engineering Team
+**Date:** oct, 2025  
+**Authors:** Mohammed Abdel Naeem
 
 ---
 
@@ -313,7 +313,7 @@ This document identifies, analyzes, and provides mitigation strategies for risks
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-12-11 | QA Team | Initial version |
+| 1.0 | 2025| Mohammed Abdel Naeem| Initial version |
 
 ---
 
@@ -323,4 +323,5 @@ This document identifies, analyzes, and provides mitigation strategies for risks
 |------|------|-----------|------|
 | QA Lead | | | |
 | Project Manager | | | |
+
 
