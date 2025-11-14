@@ -2,8 +2,8 @@
 
 **Document Title:** Test Strategy for DemoBlaze E-Commerce Platform  
 **Version:** 1.0  
-**Date:** December 11, 2025  
-**Authors:** QA Engineering Team  
+**Date:** october 17, 2025  
+**Authors:** Mohammed Abdel Naeem
 **Status:** Approved
 
 ---
@@ -440,7 +440,7 @@ This strategy applies to all testing activities for the DemoBlaze application, i
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-12-11 | QA Team | Initial version |
+| 1.0 | 17 oct 25| Mohammed | Initial version |
 
 ---
 
@@ -451,4 +451,5 @@ This strategy applies to all testing activities for the DemoBlaze application, i
 | QA Lead | | | |
 | Development Lead | | | |
 | Product Owner | | | |
+
 
