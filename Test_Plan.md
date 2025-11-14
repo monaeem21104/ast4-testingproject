@@ -3,7 +3,7 @@
 **Document Title:** Test Plan for DemoBlaze E-Commerce Platform  
 **Version:** 1.0  
 **Date:** October 17, 2025  
-**Authors:** QA Engineering Team  
+**Authors:** Mohammed Abdel Naeem   
 **Status:** Approved
 
 ---
@@ -412,5 +412,6 @@ This test plan covers testing of the DemoBlaze application available at https://
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2025-10-17 | QA Team | Initial version |
+| 1.0 | 2025-10-17 | Mohammed | Initial version |
+
 
