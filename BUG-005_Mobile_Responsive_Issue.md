@@ -1,8 +1,8 @@
 # Bug Report - BUG-005
 
 **Bug ID:** BUG-005  
-**Reported Date:** 2025-12-06  
-**Reported By:** QA Engineer  
+**Reported Date:** 2025 
+**Reported By:** Mohammed Abdel Naeem  
 **Status:** Open  
 **Assigned To:** Frontend Developer  
 **Product/Module:** DemoBlaze E-Commerce Platform - Responsive Design  
@@ -121,13 +121,10 @@ This affects mobile user experience significantly. With increasing mobile usage,
 ---
 
 ## Bug Lifecycle
-- **New** (2025-12-06) → **Assigned** (2025-12-07) → **In Progress** (2025-12-11) → **Fixed** → **Retest** → **Closed**
-
+New (2025-10-19) → Assigned (2025-10-19) → In Progress (2025-10-20) → Fixed (2025-10-20) → Retest (2025-10-21) → Closed (2025-12-22)
 ---
 
 ## Approval
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
-| QA Lead | John Smith | Approved | 2025-12-07 |
-| Development Lead | Jane Doe | Assigned | 2025-12-07 |
 
