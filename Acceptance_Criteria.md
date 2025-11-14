@@ -2,8 +2,8 @@
 
 **Document Title:** Acceptance Criteria for DemoBlaze E-Commerce Platform  
 **Version:** 1.0  
-**Date:** December 11, 2025  
-**Authors:** QA Engineering Team
+**Date:** 2025  
+**Authors:** Mohammed Abdel Naeem
 
 ---
 
@@ -436,8 +436,5 @@ The application is considered ready for release when:
 ## 6. Approval
 
 | Role | Name | Signature | Date |
-|------|------|-----------|------|
-| QA Lead | | | |
-| Product Owner | | | |
-| Development Lead | | | |
+
 
