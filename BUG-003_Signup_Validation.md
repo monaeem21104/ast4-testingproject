@@ -104,12 +104,12 @@ This affects user experience as users are not informed why registration failed. 
 ---
 
 ## Bug Lifecycle
-- **New** (2025-12-08) → **Assigned** (2025-12-09) → **In Progress** (2025-12-09) → **Fixed** (2025-12-10) → **Retest** (2025-12-10) → **Closed** (2025-12-10)
-
+New (2025-10-19) → Assigned (2025-10-19) → In Progress (2025-10-20) → Fixed (2025-10-20) → Retest (2025-10-21) → Closed (2025-12-22)
 ---
 
 ## Approval
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
+
 
 
