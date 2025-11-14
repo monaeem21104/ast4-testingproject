@@ -1,0 +1,19 @@
+Data Type,Field Name,Valid Value 1,Valid Value 2,Valid Value 3,Invalid Value 1,Invalid Value 2,Invalid Value 3,Notes
+User Account,Username,testuser1,testuser2,testuser_123,test user,test@user,<script>alert('xss')</script>,Usernames should be alphanumeric, no spaces or special chars
+User Account,Password,password123,Test@123,SecurePass1,pass,123,password,Passwords should be at least 6 characters
+Product,Phone Name,Samsung galaxy s6,Nexus 6,Iphone 6 32gb,N/A,N/A,N/A,Actual product names from application
+Product,Laptop Name,MacBook air,Sony vaio i5,Dell i7 8gb,N/A,N/A,N/A,Actual product names from application
+Product,Monitor Name,Apple monitor 24,ASUS Full HD,N/A,N/A,N/A,N/A,Actual product names from application
+Order,Name,John Doe,Jane Smith,Robert Johnson,,Test123,<script>alert('xss')</script>,Name should be alphabetic with spaces
+Order,Country,USA,United Kingdom,Canada,XX,123,<script>alert('xss')</script>,Country should be valid country name
+Order,City,New York,London,Toronto,City123,<script>alert('xss')</script>,City should be alphabetic
+Order,Credit Card,1234567890123456,4111111111111111,5555555555554444,123,abc123,12345678901234567,Credit card should be 16 digits numeric
+Order,Month,12,01,06,13,00,abc,Month should be 01-12
+Order,Year,2025,2026,2030,2020,1999,abc,Year should be current or future year
+Security,XSS Payload,<script>alert('XSS')</script>,<img src=x onerror=alert(1)>,javascript:alert('XSS'),N/A,N/A,N/A,Common XSS attack payloads
+Security,SQL Injection,' OR '1'='1,'; DROP TABLE users; --,admin'--,N/A,N/A,N/A,Common SQL injection payloads
+Security,Special Characters,<>&"'{},[],N/A,N/A,N/A,Special characters that may cause issues
+Contact,Contact Email,test@example.com,user@test.com,contact@demo.com,invalid-email,test@,@test.com,Valid email format required
+Contact,Contact Name,Test User,John Smith,QA Tester,<script>alert('xss')</script>,N/A,N/A,Name should be alphabetic
+Contact,Message,This is a test message,Hello, testing contact form,Short message,N/A,N/A,Message can be any text
+

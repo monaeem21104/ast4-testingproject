@@ -1,0 +1,30 @@
+Requirement ID,Requirement Description,Priority,TestCase IDs,Automation Script,Status,Coverage Notes
+FR-1,Homepage Display,High,TC-HOME-001;TC-HOME-002;TC-HOME-003;TC-HOME-004;TC-HOME-005,test_smoke.py::TestSmoke::test_homepage_loads,Tested,100% coverage
+FR-2,Category Navigation,High,TC-NAV-001;TC-NAV-002;TC-NAV-003;TC-NAV-004,test_smoke.py::TestSmoke::test_category_navigation,Tested,100% coverage
+FR-3,Product Listing,High,TC-PROD-001;TC-PROD-002,test_smoke.py::TestSmoke::test_product_listing,Tested,100% coverage
+FR-4,Product Detail View,High,TC-PROD-003;TC-PROD-004;TC-PROD-005;TC-PROD-006;TC-PROD-007,test_smoke.py::TestSmoke::test_product_detail_view,Tested,100% coverage
+FR-5,Add Product to Cart,High,TC-CART-001;TC-CART-002;TC-CART-003;TC-CART-004,test_checkout_flow.py::TestCheckoutFlow::test_add_to_cart,Tested,100% coverage
+FR-6,View Shopping Cart,High,TC-CART-005;TC-CART-006;TC-CART-007,test_checkout_flow.py::TestCheckoutFlow::test_view_cart,Tested,100% coverage
+FR-7,Remove Product from Cart,High,TC-CART-008;TC-CART-009;TC-CART-010,test_checkout_flow.py::TestCheckoutFlow::test_remove_from_cart,Tested,100% coverage
+FR-8,Cart Total Calculation,High,TC-CART-011;TC-CART-012;TC-CART-013,test_checkout_flow.py::TestCheckoutFlow::test_cart_total_calculation,Tested,100% coverage
+FR-9,User Registration,High,TC-AUTH-001;TC-AUTH-002;TC-AUTH-003;TC-AUTH-004,test_login_signup.py::TestLoginSignup::test_user_signup,Tested,100% coverage
+FR-10,User Login,High,TC-AUTH-005;TC-AUTH-006;TC-AUTH-007;TC-AUTH-008,test_login_signup.py::TestLoginSignup::test_user_login,Tested,100% coverage
+FR-11,User Logout,Medium,TC-AUTH-009;TC-AUTH-010,test_login_signup.py::TestLoginSignup::test_logout,Tested,100% coverage
+FR-12,Place Order,High,TC-ORDER-001;TC-ORDER-002;TC-ORDER-003;TC-ORDER-004,test_checkout_flow.py::TestCheckoutFlow::test_place_order,Tested,100% coverage
+FR-13,Order Form Validation,High,TC-ORDER-005;TC-ORDER-006;TC-ORDER-007;TC-ORDER-008,test_checkout_flow.py::TestCheckoutFlow::test_order_form_validation,Tested,100% coverage
+FR-14,About Us Page,Low,TC-INFO-001;TC-INFO-002,Not Automated,Tested,100% coverage
+FR-15,Contact Page,Medium,TC-INFO-003;TC-INFO-004;TC-INFO-005,Not Automated,Tested,100% coverage
+NFR-1,Page Load Time,Medium,TC-PERF-001;TC-PERF-002;TC-PERF-003,Not Automated,Tested,100% coverage
+NFR-2,Response Time,Medium,TC-PERF-004;TC-PERF-005,Not Automated,Tested,100% coverage
+NFR-3,Input Validation,High,TC-SEC-001;TC-SEC-002;TC-SEC-003;TC-SEC-004,Not Automated,Tested,100% coverage
+NFR-4,Session Management,High,TC-SEC-005;TC-SEC-006;TC-SEC-007,Not Automated,Tested,100% coverage
+NFR-5,Data Privacy,Medium,TC-SEC-008;TC-SEC-009;TC-SEC-010,Not Automated,Tested,100% coverage
+NFR-6,Browser Compatibility,High,TC-COMP-001;TC-COMP-002;TC-COMP-003;TC-COMP-004,CI/CD Matrix (Chrome, Firefox),Tested,100% coverage
+NFR-7,Device Compatibility,High,TC-COMP-005;TC-COMP-006;TC-COMP-007;TC-COMP-008,Not Automated,Tested,100% coverage
+NFR-8,Keyboard Navigation,Medium,TC-ACC-001;TC-ACC-002;TC-ACC-003;TC-ACC-004,Not Automated,Tested,100% coverage
+NFR-9,Screen Reader Support,Low,TC-ACC-005;TC-ACC-006;TC-ACC-007,Not Automated,Tested,100% coverage
+NFR-10,Visual Accessibility,Medium,TC-ACC-008;TC-ACC-009;TC-ACC-010,Not Automated,Tested,100% coverage
+NFR-11,User Interface Clarity,High,TC-USAB-001;TC-USAB-002;TC-USAB-003;TC-USAB-004,Not Automated,Tested,100% coverage
+NFR-12,Error Handling,High,TC-ERR-001;TC-ERR-002;TC-ERR-003;TC-ERR-004,Not Automated,Tested,100% coverage
+NFR-13,System Availability,Medium,TC-AVAIL-001;TC-AVAIL-002,Not Automated,Tested,100% coverage
+
