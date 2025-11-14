@@ -1,8 +1,8 @@
 # Bug Report - BUG-001
 
 **Bug ID:** BUG-001  
-**Reported Date:** 2025-12-10  
-**Reported By:** QA Engineer  
+**Reported Date:** 2025 
+**Reported By:** Mohammed Abdel Naeem  
 **Status:** Fixed  
 **Assigned To:** Frontend Developer  
 **Product/Module:** DemoBlaze E-Commerce Platform - Shopping Cart  
@@ -111,6 +111,6 @@ This bug was discovered during cross-browser compatibility testing. The same fun
 ## Approval
 | Role | Name | Signature | Date |
 |------|------|-----------|------|
-| QA Lead | John Smith | Approved | 2025-12-11 |
-| Development Lead | Jane Doe | Fixed | 2025-12-11 |
+
+
 
