@@ -1,8 +1,8 @@
 # Bug Report - BUG-002
 
 **Bug ID:** BUG-002  
-**Reported Date:** 2025-12-09  
-**Reported By:** Senior QA Engineer  
+**Reported Date:** 2025
+**Reported By:** Mohammed Abdel Naeem
 **Status:** Fixed  
 **Assigned To:** Frontend Developer  
 **Product/Module:** DemoBlaze E-Commerce Platform - Shopping Cart  
@@ -113,7 +113,7 @@ This is a critical bug as it affects the core functionality of calculating order
 ---
 
 ## Bug Lifecycle
-- **New** (2025-12-09) → **Assigned** (2025-12-09) → **In Progress** (2025-12-10) → **Fixed** (2025-12-10) → **Retest** (2025-12-10) → **Closed** (2025-12-10)
+- **New** (2025-10-19) → **Assigned** (2025-10-19) → **In Progress** (2025-10-20) → **Fixed** (2025-10-20) → **Retest** (2025-10-21) → **Closed** (2025-12-22)
 
 ---
 
@@ -122,4 +122,5 @@ This is a critical bug as it affects the core functionality of calculating order
 |------|------|-----------|------|
 | QA Lead | John Smith | Approved | 2025-12-10 |
 | Development Lead | Jane Doe | Fixed | 2025-12-10 |
+
 
