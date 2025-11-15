@@ -3,8 +3,8 @@
 
 **Project:** DemoBlaze E-Commerce Website  
 **URL:** https://demoblaze.com/  
-**Document Version:** 2.0  
-**Date:** 2024  
+**Document Version:** 1.0  
+**Date:** 2025
 **Prepared By:** Mohammed Abdel Naeem
 
 ---
@@ -1144,4 +1144,5 @@ _Add screenshot of error message and note security behavior. This is a critical 
 
 **Prepared By:** Mohammed Abdel Naeem  
 **Total Test Cases in this file:** 25
+
 
