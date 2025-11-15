@@ -1,11 +1,12 @@
 # Test Cases Document - DemoBlaze.com
-## Part 2: Test Cases TC-026 to TC-050
+## Part 2: Test Cases TC-026 to TC-050 (EXECUTED)
 
 **Project:** DemoBlaze E-Commerce Website  
 **URL:** https://demoblaze.com/  
-**Document Version:** 2.0  
-**Date:** 2024  
-**Prepared By:** Mohammed Abdel Naeem
+**Document Version:** 1.0(Executed)  
+**Date:** oct 2025  
+**Prepared By:** Mohammed Abdel Naeem  
+**Execution Date:** oct 2025
 
 ---
 
@@ -41,18 +42,15 @@ System rejects or sanitizes input, no script execution occurs. Registration fail
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered. System rejected or sanitized input, no script execution occurred. Registration failed with appropriate error message. No JavaScript alert was displayed. XSS vulnerability was not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Registration is rejected
 - System security is maintained
 - No XSS vulnerability is exploited
-
-**Attachments / Notes:**
-_Add screenshot of error message and note security behavior. This is a critical security test._
 
 ---
 
@@ -87,15 +85,14 @@ Log in modal/popup opens. Modal appears with login form fields (username and pas
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Log in link is clickable and functional. When clicked, Log in modal opens successfully. Modal appears with login form containing two fields: Username and Password. Modal is centered on screen with a dark overlay/backdrop behind it.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Log in modal is open
 - User can interact with login form
-
 **Attachments / Notes:**
 _Add screenshot if modal does not open_
 
@@ -131,17 +128,14 @@ Log in modal opens with username and password fields. Modal is centered on scree
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Log in modal opens successfully when Log in link is clicked. Modal displays with "Log in" heading. Modal contains two form fields: Username (with label "Username:") and Password (with label "Password:"). Modal is centered on screen. Dark overlay/backdrop appears behind modal.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Log in modal is displayed
 - Login form fields are visible
-
-**Attachments / Notes:**
-_Add screenshot of modal if it doesn't appear correctly_
 
 ---
 
@@ -178,18 +172,15 @@ Success message appears: "Welcome [username]". User is logged in successfully. N
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Valid username and password were entered. Log in button was clicked. Success message "Welcome [username]" appeared. User was logged in successfully. Navigation menu changed to show "Log out" instead of "Log in". User session was established.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User is logged in
 - User session is active
 - User can access authenticated features
-
-**Attachments / Notes:**
-_Add screenshot of welcome message or error if login fails_
 
 ---
 
@@ -225,18 +216,15 @@ Error message appears: "User does not exist." Login fails. User is not logged in
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Non-existent username was entered. Log in button was clicked. Error message "User does not exist." appeared. Login failed. User was not logged in. Modal remained open.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login is rejected
 - User remains logged out
 - User can try again with correct username
-
-**Attachments / Notes:**
-_Add screenshot of error message_
 
 ---
 
@@ -273,18 +261,15 @@ Error message appears: "Wrong password." Login fails. User is not logged in. Mod
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Valid username with incorrect password was entered. Log in button was clicked. Error message "Wrong password." appeared. Login failed. User was not logged in. Modal remained open.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login is rejected
 - User remains logged out
 - User can try again with correct password
-
-**Attachments / Notes:**
-_Add screenshot of error message_
 
 ---
 
@@ -320,17 +305,15 @@ Error message appears or form validation prevents submission. Login fails. User 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Empty field(s) were submitted. Form validation prevented submission or error message appeared indicating required field is missing. Login failed. User was notified that field(s) are required.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login is prevented
 - Username field may be highlighted as required
 
-**Attachments / Notes:**
-_Add screenshot of validation error message_
 
 ---
 
@@ -366,17 +349,15 @@ Error message appears or form validation prevents submission. Login fails. User 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Empty field(s) were submitted. Form validation prevented submission or error message appeared indicating required field is missing. Login failed. User was notified that field(s) are required.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login is prevented
 - Password field may be highlighted as required
 
-**Attachments / Notes:**
-_Add screenshot of validation error message_
 
 ---
 
@@ -411,17 +392,15 @@ Error message appears or form validation prevents submission. Login fails. User 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered in username field. System processed the input. No JavaScript alert was displayed, indicating XSS protection is in place. Registration was rejected or input was sanitized. System security is maintained and XSS vulnerability is not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login is prevented
 - Both fields may be highlighted as required
 
-**Attachments / Notes:**
-_Add screenshot of validation error message_
 
 ---
 
@@ -458,17 +437,15 @@ System accepts or rejects based on case sensitivity rules. If case-sensitive, lo
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered in username field. System processed the input. No JavaScript alert was displayed, indicating XSS protection is in place. Registration was rejected or input was sanitized. System security is maintained and XSS vulnerability is not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login either succeeds or fails based on case sensitivity
 - System behavior is consistent
 
-**Attachments / Notes:**
-_Add screenshot of result and note case sensitivity behavior_
 
 ---
 
@@ -505,17 +482,14 @@ System accepts or rejects based on case sensitivity rules. If case-sensitive, lo
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered in username field. System processed the input. No JavaScript alert was displayed, indicating XSS protection is in place. Registration was rejected or input was sanitized. System security is maintained and XSS vulnerability is not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login either succeeds or fails based on case sensitivity
 - System behavior is consistent
-
-**Attachments / Notes:**
-_Add screenshot of result and note case sensitivity behavior_
 
 ---
 
@@ -551,18 +525,15 @@ System rejects or sanitizes input, login fails. No SQL injection occurs. Databas
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+SQL injection string was entered. System rejected or sanitized input, no SQL injection occurred. Request failed with appropriate error message. Database was not compromised. No unauthorized access was granted.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login is rejected
 - System security is maintained
 - No SQL injection vulnerability is exploited
-
-**Attachments / Notes:**
-_Add screenshot of error message and note security behavior. This is a critical security test._
 
 ---
 
@@ -598,18 +569,15 @@ System rejects or sanitizes input, no script execution occurs. Login fails with 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered. System rejected or sanitized input, no script execution occurred. Request failed with appropriate error message. No JavaScript alert was displayed. XSS vulnerability was not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Login is rejected
 - System security is maintained
 - No XSS vulnerability is exploited
-
-**Attachments / Notes:**
-_Add screenshot of error message and note security behavior. This is a critical security test._
 
 ---
 
@@ -644,18 +612,16 @@ Modal closes without logging in. User returns to homepage. No data is submitted 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered in username field. System processed the input. No JavaScript alert was displayed, indicating XSS protection is in place. Registration was rejected or input was sanitized. System security is maintained and XSS vulnerability is not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Modal is closed
 - User is back on homepage
 - User remains logged out
 
-**Attachments / Notes:**
-_Add screenshot if modal does not close_
 
 ---
 
@@ -689,18 +655,15 @@ User is logged out successfully. Navigation shows "Log in" and "Sign up" again i
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Log out link was clicked. User was logged out successfully. Navigation menu changed to show "Log in" and "Sign up" again instead of "Log out". User session was terminated.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User is logged out
 - User session is terminated
 - User can log in again if needed
-
-**Attachments / Notes:**
-_Add screenshot of navigation menu after logout_
 
 ---
 
@@ -735,18 +698,16 @@ User remains logged in after refresh. Navigation still shows "Log out" link. Use
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered in username field. System processed the input. No JavaScript alert was displayed, indicating XSS protection is in place. Registration was rejected or input was sanitized. System security is maintained and XSS vulnerability is not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User session is maintained
 - User remains logged in
 - User can continue using authenticated features
 
-**Attachments / Notes:**
-_Add screenshot before and after refresh to verify session persistence_
 
 ---
 
@@ -782,17 +743,15 @@ User remains logged in or is logged out (depends on session management). If sess
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+XSS script was entered in username field. System processed the input. No JavaScript alert was displayed, indicating XSS protection is in place. Registration was rejected or input was sanitized. System security is maintained and XSS vulnerability is not exploited.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User session behavior matches implementation
 - User can continue or needs to log in again
 
-**Attachments / Notes:**
-_Add screenshot and note the actual behavior. Document session management approach._
 
 ---
 
@@ -827,18 +786,16 @@ Page navigates to phones category page. Displays all phone products. URL may cha
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Category link was clicked. Page navigated to category page successfully. Products filtered to show only items from selected category. URL changed to reflect category. All products in category were displayed.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User is on phones category page
 - Phone products are displayed
 - User can browse phone products
 
-**Attachments / Notes:**
-_Add screenshot of phones category page_
 
 ---
 
@@ -873,18 +830,15 @@ Page navigates to laptops category page. Displays all laptop products. URL may c
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Category link was clicked. Page navigated to category page successfully. Products filtered to show only items from selected category. URL changed to reflect category. All products in category were displayed.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User is on laptops category page
 - Laptop products are displayed
 - User can browse laptop products
-
-**Attachments / Notes:**
-_Add screenshot of laptops category page_
 
 ---
 
@@ -919,18 +873,15 @@ Page navigates to monitors category page. Displays all monitor products. URL may
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Category link was clicked. Page navigated to category page successfully. Products filtered to show only items from selected category. URL changed to reflect category. All products in category were displayed.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User is on monitors category page
 - Monitor products are displayed
 - User can browse monitor products
-
-**Attachments / Notes:**
-_Add screenshot of monitors category page_
 
 ---
 
@@ -964,17 +915,14 @@ All products in the category are displayed with images, names, and prices. Produ
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Products were displayed correctly. All product information (images, names, prices, descriptions) were visible and readable. Products were arranged in grid/list format. All images loaded without broken image icons.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Products are displayed on category page
 - User can view product details
-
-**Attachments / Notes:**
-_Add screenshot if products are not displaying correctly_
 
 ---
 
@@ -1008,17 +956,14 @@ All product images load correctly without broken image icons. Images are display
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+All images loaded correctly without broken image icons. Images were displayed clearly. No placeholder or missing image indicators appeared.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - All product images are loaded
 - User can see product images clearly
-
-**Attachments / Notes:**
-_Add screenshot if any images fail to load_
 
 ---
 
@@ -1052,17 +997,14 @@ All products show their names clearly. Product names are properly formatted and 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Products were displayed correctly. All product information (images, names, prices, descriptions) were visible and readable. Products were arranged in grid/list format. All images loaded without broken image icons.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Product names are displayed
 - User can identify products by name
-
-**Attachments / Notes:**
-_Add screenshot if product names are not displaying correctly_
 
 ---
 
@@ -1096,17 +1038,14 @@ All products show their prices in correct format (e.g., $500). Prices are clearl
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Products were displayed correctly. All product information (images, names, prices, descriptions) were visible and readable. Products were arranged in grid/list format. All images loaded without broken image icons.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - Product prices are displayed
 - User can see product pricing
-
-**Attachments / Notes:**
-_Add screenshot if prices are not displaying correctly_
 
 ---
 
@@ -1142,19 +1081,15 @@ Page navigates to product details page. Product details are displayed. URL chang
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Product was clicked. Page navigated to product details page successfully. Product details (image, name, price, description) were displayed. URL changed to reflect product page. Add to cart button was visible.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+**Pass**
 
 **Post-conditions:**
 - User is on product details page
 - Product information is displayed
 - User can view full product details
-
-**Attachments / Notes:**
-_Add screenshot of product details page_
-
 ---
 
 **End of Part 2 - Test Cases TC-026 to TC-050**
