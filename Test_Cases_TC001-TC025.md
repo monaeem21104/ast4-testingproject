@@ -39,10 +39,10 @@ Homepage loads successfully with all elements visible (header, navigation menu, 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Homepage Loads Successfully
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Homepage is fully loaded
@@ -73,7 +73,7 @@ _To be filled during test execution (Pass / Fail)_
 - Expected title: "STORE" or "DemoBlaze"
 
 **Expected Result:**
-Browser tab displays appropriate title (e.g., "STORE" or "DemoBlaze"). Title is clear and descriptive.
+Browser tab displays  appropriate title (e.g., "STORE" or "DemoBlaze"). Title is clear and descriptive.
 
 **Environment:**
 - OS: Windows 11 / macOS / Linux
@@ -81,10 +81,10 @@ Browser tab displays appropriate title (e.g., "STORE" or "DemoBlaze"). Title is 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Browser tab displays  appropriate title
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Browser tab shows correct title
@@ -123,10 +123,11 @@ Logo is visible and properly displayed in the header section. Logo image loads w
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Logo is visible and properly displayed in the header section. Logo image loads without broken image icon. Logo is positioned correctly.
+
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Logo is displayed correctly
@@ -166,10 +167,10 @@ Navigation menu displays all required items: Home, Contact, About us, Cart, Log 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+same as the expected result
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - All navigation menu items are visible
@@ -208,10 +209,10 @@ Three categories are displayed: Phones, Laptops, Monitors. Each category is visi
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Page has loaded completely
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+passed
 
 **Post-conditions:**
 - All product categories are displayed
@@ -250,10 +251,10 @@ Products are displayed in a grid/list format with images, names, and prices. All
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+same as expected result
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Products are displayed on homepage
@@ -293,10 +294,10 @@ Footer is displayed with copyright information or relevant links. Footer is prop
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Footer is displayed with copyright information or relevant links.
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Footer is visible at bottom of page
@@ -338,10 +339,10 @@ Homepage adapts to different screen sizes appropriately. Elements stack properly
 - Device: Desktop (with resizable window)
 
 **Actual Result:**  
-_To be filled during test execution_
+Home page is responsive
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Homepage is responsive across different screen sizes
@@ -381,10 +382,10 @@ Sign up modal/popup opens. Modal appears with registration form fields (username
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Link is Clickable 
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Sign up modal is open
@@ -422,10 +423,11 @@ Sign up modal opens with username and password fields. Modal is centered on scre
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+Modal is centered on screen. Modal overlay/backdrop appears behind modal.
+
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Sign up modal is displayed
@@ -466,10 +468,10 @@ Success message appears: "Sign up successful." Modal closes automatically. User 
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+same as expected result 
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - New user account is created
@@ -510,10 +512,10 @@ Error message appears: "This user already exist." Registration fails. Modal rema
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+error message appeared
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Registration is rejected
@@ -599,10 +601,10 @@ Error message appears or form validation prevents submission. Registration fails
 - Device: Desktop
 
 **Actual Result:**  
-_To be filled during test execution_
+same as expected result 
 
 **Status:**  
-_To be filled during test execution (Pass / Fail)_
+pass
 
 **Post-conditions:**
 - Registration is prevented
@@ -1094,6 +1096,7 @@ _To be filled during test execution (Pass / Fail)_
 
 **Prepared By:** Mohammed Abdel Naeem  
 **Total Test Cases in this file:** 25
+
 
 
 
