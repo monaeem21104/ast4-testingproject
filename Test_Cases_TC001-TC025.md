@@ -48,8 +48,7 @@ _To be filled during test execution (Pass / Fail)_
 - Homepage is fully loaded
 - User can interact with all visible elements
 
-**Attachments / Notes:**
-_Add screenshots or notes if any issues are found_
+
 
 ---
 
@@ -91,8 +90,6 @@ _To be filled during test execution (Pass / Fail)_
 - Browser tab shows correct title
 - User can identify the page from the tab title
 
-**Attachments / Notes:**
-_Add screenshots of browser tab if needed_
 
 ---
 
@@ -135,8 +132,7 @@ _To be filled during test execution (Pass / Fail)_
 - Logo is displayed correctly
 - Logo is clickable (if it links to homepage)
 
-**Attachments / Notes:**
-_Add screenshot of logo display if any issues found_
+
 
 ---
 
@@ -179,8 +175,6 @@ _To be filled during test execution (Pass / Fail)_
 - All navigation menu items are visible
 - User can interact with menu items
 
-**Attachments / Notes:**
-_Add screenshot of navigation menu if any items are missing_
 
 ---
 
@@ -223,8 +217,6 @@ _To be filled during test execution (Pass / Fail)_
 - All product categories are displayed
 - User can click on categories to navigate
 
-**Attachments / Notes:**
-_Add screenshot of categories section if needed_
 
 ---
 
@@ -267,8 +259,7 @@ _To be filled during test execution (Pass / Fail)_
 - Products are displayed on homepage
 - User can view product details
 
-**Attachments / Notes:**
-_Add screenshot if products are not displaying correctly_
+
 
 ---
 
@@ -311,8 +302,6 @@ _To be filled during test execution (Pass / Fail)_
 - Footer is visible at bottom of page
 - Footer content is readable
 
-**Attachments / Notes:**
-_Add screenshot of footer if needed_
 
 ---
 
@@ -358,8 +347,6 @@ _To be filled during test execution (Pass / Fail)_
 - Homepage is responsive across different screen sizes
 - All elements remain accessible
 
-**Attachments / Notes:**
-_Add screenshots of different screen sizes if layout issues found_
 
 ---
 
@@ -403,9 +390,6 @@ _To be filled during test execution (Pass / Fail)_
 - Sign up modal is open
 - User can interact with registration form
 
-**Attachments / Notes:**
-_Add screenshot if modal does not open_
-
 ---
 
 ## Test Case TC-010
@@ -447,9 +431,7 @@ _To be filled during test execution (Pass / Fail)_
 - Sign up modal is displayed
 - Registration form fields are visible
 
-**Attachments / Notes:**
-_Add screenshot of modal if it doesn't appear correctly_
-
+\د
 ---
 
 ## Test Case TC-011
@@ -493,8 +475,6 @@ _To be filled during test execution (Pass / Fail)_
 - New user account is created
 - User can now log in with the created credentials
 
-**Attachments / Notes:**
-_Add screenshot of success message or error if registration fails_
 
 ---
 
@@ -539,8 +519,7 @@ _To be filled during test execution (Pass / Fail)_
 - Registration is rejected
 - User can try with different username
 
-**Attachments / Notes:**
-_Add screenshot of error message_
+
 
 ---
 
@@ -585,8 +564,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration is prevented
 - Username field may be highlighted as required
 
-**Attachments / Notes:**
-_Add screenshot of validation error message_
 
 ---
 
@@ -631,8 +608,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration is prevented
 - Password field may be highlighted as required
 
-**Attachments / Notes:**
-_Add screenshot of validation error message_
 
 ---
 
@@ -676,8 +651,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration is prevented
 - Both fields may be highlighted as required
 
-**Attachments / Notes:**
-_Add screenshot of validation error message_
 
 ---
 
@@ -722,8 +695,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration either succeeds or fails based on validation
 - User receives appropriate feedback
 
-**Attachments / Notes:**
-_Add screenshot of result (success or error message)_
 
 ---
 
@@ -768,8 +739,7 @@ _To be filled during test execution (Pass / Fail)_
 - Registration either succeeds or fails based on validation
 - System handles long input appropriately
 
-**Attachments / Notes:**
-_Add screenshot of result and note the behavior_
+
 
 ---
 
@@ -814,8 +784,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration either succeeds or fails based on validation
 - System enforces or allows short usernames
 
-**Attachments / Notes:**
-_Add screenshot of result_
 
 ---
 
@@ -860,8 +828,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration either succeeds or fails based on validation
 - System handles long password input appropriately
 
-**Attachments / Notes:**
-_Add screenshot of result_
 
 ---
 
@@ -906,9 +872,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration either succeeds or fails based on validation
 - System enforces or allows short passwords
 
-**Attachments / Notes:**
-_Add screenshot of result_
-
 ---
 
 ## Test Case TC-021
@@ -951,9 +914,6 @@ _To be filled during test execution (Pass / Fail)_
 **Post-conditions:**
 - Registration either succeeds or fails based on validation
 - System handles spaces in username appropriately
-
-**Attachments / Notes:**
-_Add screenshot of result_
 
 ---
 
@@ -998,9 +958,6 @@ _To be filled during test execution (Pass / Fail)_
 - Registration either succeeds or fails based on validation
 - System handles spaces in password appropriately
 
-**Attachments / Notes:**
-_Add screenshot of result_
-
 ---
 
 ## Test Case TC-023
@@ -1044,8 +1001,6 @@ _To be filled during test execution (Pass / Fail)_
 - User is back on homepage
 - No user account is created
 
-**Attachments / Notes:**
-_Add screenshot if modal does not close_
 
 ---
 
@@ -1088,8 +1043,6 @@ _To be filled during test execution (Pass / Fail)_
 - Modal behavior matches expected implementation
 - User can interact with page accordingly
 
-**Attachments / Notes:**
-_Add screenshot and note the actual behavior_
 
 ---
 
@@ -1135,14 +1088,12 @@ _To be filled during test execution (Pass / Fail)_
 - System security is maintained
 - No SQL injection vulnerability is exploited
 
-**Attachments / Notes:**
-_Add screenshot of error message and note security behavior. This is a critical security test._
-
 ---
 
 **End of Part 1 - Test Cases TC-001 to TC-025**
 
 **Prepared By:** Mohammed Abdel Naeem  
 **Total Test Cases in this file:** 25
+
 
 
