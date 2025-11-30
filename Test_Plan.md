@@ -50,7 +50,7 @@ This test plan covers testing of the DemoBlaze application available at https://
 
 #### Non-Functional Testing
 - **Performance:** Page load times, response times
-- **Security:** Input validation, session management, data privacy
+  
 - **Compatibility:** Cross-browser (Chrome, Firefox, Edge, Safari), cross-device (desktop, tablet, mobile)
 - **Accessibility:** Keyboard navigation, screen reader support, visual accessibility
 - **Usability:** UI clarity, error handling, user experience
@@ -58,7 +58,7 @@ This test plan covers testing of the DemoBlaze application available at https://
 #### Regression Testing
 - Full regression suite for each release
 - Smoke testing for quick validation
-- Sanity testing for specific areas after fixes
+
 
 #### Integration Testing
 - End-to-end user workflows
@@ -97,11 +97,6 @@ This test plan covers testing of the DemoBlaze application available at https://
 - **Coverage:** Homepage, category navigation, product view, add to cart
 - **Automation:** Fully automated
 
-#### 3.1.4 Sanity Testing
-- **Approach:** Focused testing on specific areas after fixes
-- **Technique:** Execute test cases related to fixed areas
-- **Coverage:** Affected modules and related areas
-- **Automation:** Partially automated
 
 #### 3.1.5 Exploratory Testing
 - **Approach:** Unscripted testing based on test charters
@@ -123,12 +118,6 @@ This test plan covers testing of the DemoBlaze application available at https://
   - Devices: Desktop (1920x1080, 1366x768), Tablet (768x1024), Mobile (375x667, 414x896)
 - **Automation:** Automated with browser matrix
 
-#### 3.1.8 Accessibility Testing
-- **Approach:** Validate WCAG basic compliance
-- **Technique:** Manual testing, automated accessibility tools
-- **Coverage:** Keyboard navigation, screen reader support, visual accessibility
-- **Automation:** Partially automated (accessibility audit tools)
-
 #### 3.1.9 Security Testing
 - **Approach:** Basic security validation
 - **Technique:** Input validation testing, session testing
@@ -141,11 +130,7 @@ This test plan covers testing of the DemoBlaze application available at https://
 - **Coverage:** Page load times, action response times
 - **Automation:** Automated performance checks
 
-#### 3.1.11 Localization Testing
-- **Approach:** Verify application behavior with different locales
-- **Technique:** Test with different browser languages, character sets
-- **Coverage:** Date formats, number formats, special characters
-- **Automation:** Not applicable (manual testing)
+
 
 ### 3.2 Test Levels
 
@@ -217,16 +202,6 @@ This test plan covers testing of the DemoBlaze application available at https://
 - **Security:** OWASP ZAP (basic), manual security testing
 
 ---
-
-## 6. Resource and Role Assignments
-
-### 6.1 Team Structure
-| Role | Responsibility | Count |
-|------|---------------|-------|
-| QA Lead | Test planning, coordination, reporting | 1 |
-| Senior QA Engineer | Test design, automation, complex scenarios | 1 |
-| QA Engineer | Test execution, bug reporting, regression | 2 |
-| Automation Engineer | Automation framework, script development | 1 |
 
 ### 6.2 Responsibilities
 - **QA Lead:** Overall test planning, coordination, reporting, stakeholder communication
@@ -413,5 +388,6 @@ This test plan covers testing of the DemoBlaze application available at https://
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-10-17 | Mohammed | Initial version |
+
 
 
