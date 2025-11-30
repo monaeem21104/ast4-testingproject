@@ -23,9 +23,7 @@ This test plan covers testing of the DemoBlaze application available at https://
 
 **Out of Scope:**
 - Backend API testing (if APIs are exposed separately)
-- Database testing
-- Infrastructure testing
-- Third-party service testing
+
 
 ### 1.3 Test Objectives
 1. Verify that all functional requirements are met as specified in the SRS
@@ -66,12 +64,8 @@ This test plan covers testing of the DemoBlaze application available at https://
 - Authentication flow integration
 
 ### 2.2 Out-of-Scope Testing
-- Backend database structure and queries
-- Payment gateway integration (if external)
-- Admin panel functionality
-- Third-party analytics and tracking
-- Load testing beyond baseline performance checks
-- Penetration testing (basic security only)
+- Backend database structure and queries and api
+
 
 ---
 
@@ -91,18 +85,6 @@ This test plan covers testing of the DemoBlaze application available at https://
 - **Coverage:** All critical and high-priority test cases
 - **Automation:** 80% of regression tests automated
 
-#### 3.1.3 Smoke Testing
-- **Approach:** Quick validation of critical functionality
-- **Technique:** Execute subset of critical test cases
-- **Coverage:** Homepage, category navigation, product view, add to cart
-- **Automation:** Fully automated
-
-
-#### 3.1.5 Exploratory Testing
-- **Approach:** Unscripted testing based on test charters
-- **Technique:** Session-based testing, ad-hoc testing
-- **Coverage:** Areas not covered by scripted tests
-- **Automation:** Not applicable
 
 #### 3.1.6 Usability Testing
 - **Approach:** Evaluate user experience and interface clarity
@@ -203,107 +185,9 @@ This test plan covers testing of the DemoBlaze application available at https://
 
 ---
 
-### 6.2 Responsibilities
-- **QA Lead:** Overall test planning, coordination, reporting, stakeholder communication
-- **Senior QA Engineer:** Test case design, complex scenario testing, automation strategy
-- **QA Engineer:** Test execution, bug reporting, regression testing
-- **Automation Engineer:** Automation framework setup, script development, CI/CD integration
+
 
 ---
-
-## 7. Test Schedule
-
-### 7.1 Test Phases
-
-#### Phase 1: Test Planning and Preparation (Week 1)
-- Review requirements
-- Create test plan and strategy
-- Design test cases
-- Set up test environment
-- Prepare test data
-
-#### Phase 2: Test Case Development (Week 1-2)
-- Write detailed test cases
-- Review test cases
-- Create traceability matrix
-- Set up automation framework
-
-#### Phase 3: Test Execution - Smoke (Week 2)
-- Execute smoke tests
-- Report critical issues
-- Validate test environment
-
-#### Phase 4: Test Execution - Functional (Week 2-3)
-- Execute functional test cases
-- Execute integration test cases
-- Report and track defects
-
-#### Phase 5: Test Execution - Non-Functional (Week 3-4)
-- Execute compatibility tests
-- Execute accessibility tests
-- Execute security tests
-- Execute performance tests
-
-#### Phase 6: Regression Testing (Week 4)
-- Execute full regression suite
-- Re-test fixed defects
-- Validate fixes
-
-#### Phase 7: Test Closure (Week 4)
-- Complete test execution reports
-- Prepare test summary report
-- Conduct test review meeting
-- Obtain sign-off
-
-### 7.2 Milestones
-- **M1:** Test plan approved (End of Week 1)
-- **M2:** Test cases ready (End of Week 2)
-- **M3:** Smoke tests passed (End of Week 2)
-- **M4:** Functional tests completed (End of Week 3)
-- **M5:** Non-functional tests completed (End of Week 4)
-- **M6:** Regression tests passed (End of Week 4)
-- **M7:** Test closure (End of Week 4)
-
----
-
-## 8. Test Metrics and Reporting
-
-### 8.1 Test Metrics
-- **Test Coverage:** Requirements coverage %, Test case coverage %
-- **Test Execution:** Total tests, Passed, Failed, Blocked, Skipped
-- **Defect Metrics:** Total defects, Open, Fixed, Rejected, By severity, By priority
-- **Progress:** Test execution progress %, Defect resolution progress %
-- **Quality:** Pass rate %, Defect density
-
-### 8.2 Reporting Cadence
-- **Daily:** Test execution status, defect summary
-- **Weekly:** Test progress report, defect trend analysis
-- **Milestone:** Test summary report, test metrics dashboard
-- **Final:** Test closure report, release recommendation
-
-### 8.3 Test Reports
-- Test Execution Report (daily/weekly)
-- Defect Summary Report (daily)
-- Test Progress Report (weekly)
-- Test Summary Report (milestone/final)
-- Test Metrics Dashboard (ongoing)
-
----
-
-## 9. Risk Assessment
-
-### 9.1 Test Risks
-
-| Risk ID | Risk Description | Probability | Impact | Mitigation |
-|---------|------------------|-------------|--------|------------|
-| R1 | Test environment unavailable | Medium | High | Maintain backup environment, cloud-based options |
-| R2 | Requirements change during testing | Medium | High | Agile approach, quick test case updates |
-| R3 | Limited test data availability | Low | Medium | Generate test data, use data generators |
-| R4 | Browser/device compatibility issues | Medium | Medium | Early compatibility testing, cloud testing services |
-| R5 | Automation framework issues | Low | Medium | Early framework setup, fallback to manual testing |
-| R6 | Defect resolution delays | Medium | High | Daily defect triage, prioritize critical issues |
-| R7 | Resource unavailability | Low | High | Cross-training, backup resources |
-| R8 | Performance degradation | Low | Medium | Early performance testing, baseline establishment |
 
 ### 9.2 Contingency Plans
 - **Environment Issues:** Use cloud-based testing platforms, maintain local backup
@@ -372,14 +256,6 @@ This test plan covers testing of the DemoBlaze application available at https://
 
 ---
 
-## 12. Approvals
-
-| Role | Name | Signature | Date |
-|------|------|-----------|------|
-| QA Lead | | | |
-| Development Lead | | | |
-| Product Owner | | | |
-| Project Manager | | | |
 
 ---
 
@@ -388,6 +264,7 @@ This test plan covers testing of the DemoBlaze application available at https://
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2025-10-17 | Mohammed | Initial version |
+
 
 
 
