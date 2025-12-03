@@ -1,9 +1,3 @@
-"""
-DemoBlaze Automation Test Script - TC-076 to TC-100
-سكريبت أتمتة احترافي لتيست كيس الكارت و Place Order
-مشروع تخرج - DemoBlaze Website Testing
-"""
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -1298,5 +1292,6 @@ class DemoBlazeCartOrderTestSuite:
 if __name__ == "__main__":
     suite = DemoBlazeCartOrderTestSuite()
     suite.run_all_tests()
+
 
 
