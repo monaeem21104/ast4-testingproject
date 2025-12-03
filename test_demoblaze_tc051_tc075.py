@@ -1,8 +1,3 @@
-"""
-DemoBlaze Automation Test Script - TC-051 to TC-075
-سكريبت أتمتة شامل للتست كيس من 51 لحد 75
-"""
-
 import json
 import time
 from datetime import datetime
@@ -848,6 +843,7 @@ class DemoBlazeAdvancedTestSuite:
 if __name__ == "__main__":
     suite = DemoBlazeAdvancedTestSuite()
     suite.run_all_tests()
+
 
 
 
