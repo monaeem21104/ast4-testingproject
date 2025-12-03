@@ -1,9 +1,3 @@
-"""
-DemoBlaze Automation Test Script - TC-001 to TC-050
-سكريبت أتمتة شامل وقوي لـ 50 test case
-مشروع تخرج - DemoBlaze Website Testing
-"""
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -2341,4 +2335,5 @@ class DemoBlazeTestSuite:
 if __name__ == "__main__":
     test_suite = DemoBlazeTestSuite()
     test_suite.run_all_tests()
+
 
